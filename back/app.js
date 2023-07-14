@@ -9,6 +9,7 @@ app.use(
     require.main.require('./middlewares/auth')
 );
 
+
 config.models.forEach(
     model => {
         app.use(
